@@ -39,7 +39,24 @@ public class visualizador3 extends javax.swing.JPanel {
 
         add(jPanel1);
     }// </editor-fold>//GEN-END:initComponents
+    
+    int variablePrueba=250;
+    
+    public void setNumero3(int numero){
+        if(numero>999){
+            visualizador1.setNumero(9);
+            visualizador2.setNumero(9);
+            visualizador3.setNumero(9);
+        }else{
+            //trabajo con cadenas para hacerlo más rápido
+            String cadenaAux=String.valueOf(numero);
 
+            //concateno "" para hacerlos string
+            visualizador1.setNumero(Integer.valueOf(cadenaAux.charAt(0)+""));
+            visualizador2.setNumero(Integer.valueOf(cadenaAux.charAt(1)+""));
+            visualizador3.setNumero(Integer.valueOf(cadenaAux.charAt(2)+""));
+        }
+    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel jPanel1;

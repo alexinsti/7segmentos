@@ -147,6 +147,7 @@ public class Visualizador extends javax.swing.JPanel {
                                    /**/                                               /**/                 
                                                                        
                                          /**/ /*|*//*|*//*|*//*|*//*|*//*|*/ /*|*/ /**/  
+                              break;
                 
                 case 2:
                                          /**/ /*|*//*|*//*|*//*|*//*|*//*|*/ /*|*/ /**/                  
@@ -200,6 +201,7 @@ public class Visualizador extends javax.swing.JPanel {
                                    /**/                                               /**/                 
                                                                        
                                          /**/ /*|*//*|*//*|*//*|*//*|*//*|*/ /*|*/ /**/  
+                              break;
                 
                 
                 
@@ -255,6 +257,7 @@ public class Visualizador extends javax.swing.JPanel {
                                    /**/                                               /**/                 
                                                                        
                                          /**/ /*|*//*|*//*|*//*|*//*|*//*|*/ /*|*/ /**/  
+                              break;
                 
                 
                 
@@ -311,6 +314,7 @@ public class Visualizador extends javax.swing.JPanel {
                                    /**/                                               /**/                 
                                                                        
                                          /**/ /*|*//*|*//*|*//*|*//*|*//*|*/ /*|*/ /**/  
+                              break;
                 
                               
                               
@@ -365,7 +369,8 @@ public class Visualizador extends javax.swing.JPanel {
                                                                     
                                    /**/                                               /**/                 
                                                                        
-                                         /**/ /*|*//*|*//*|*//*|*//*|*//*|*/ /*|*/ /**/            
+                                         /**/ /*|*//*|*//*|*//*|*//*|*//*|*/ /*|*/ /**/      
+                              break;
                               
                               
                        case 6:
@@ -384,7 +389,7 @@ public class Visualizador extends javax.swing.JPanel {
                 /*|*/                         /*|*/                          /*|*/                          /*|*/
                 /*|*/                         /*|*/                          /*|*/                          /*|*/
                 /*|*/                         /*|*/                          /*|*/                          /*|*/
-                /*|*/f.setEnabled(false);/*|*/                         /*|*/b.setEnabled(true); /*|*/
+                /*|*/f.setEnabled(true);/*|*/                         /*|*/b.setEnabled(false); /*|*/
                 /*|*/                         /*|*/                          /*|*/                          /*|*/
                 /*|*/                         /*|*/                          /*|*/                          /*|*/
                 /*|*/                         /*|*/                          /*|*/                          /*|*/
@@ -419,7 +424,8 @@ public class Visualizador extends javax.swing.JPanel {
                                                                     
                                    /**/                                               /**/                 
                                                                        
-                                         /**/ /*|*//*|*//*|*//*|*//*|*//*|*/ /*|*/ /**/         
+                                         /**/ /*|*//*|*//*|*//*|*//*|*//*|*/ /*|*/ /**/     
+                              break;
                               
                 case 7:
                                          /**/ /*|*//*|*//*|*//*|*//*|*//*|*/ /*|*/ /**/                  
@@ -473,6 +479,7 @@ public class Visualizador extends javax.swing.JPanel {
                                    /**/                                               /**/                 
                                                                        
                                          /**/ /*|*//*|*//*|*//*|*//*|*//*|*/ /*|*/ /**/  
+                              break;
                               
                               
                    case 8:
@@ -526,7 +533,8 @@ public class Visualizador extends javax.swing.JPanel {
                                                                     
                                    /**/                                               /**/                 
                                                                        
-                                         /**/ /*|*//*|*//*|*//*|*//*|*//*|*/ /*|*/ /**/             
+                                         /**/ /*|*//*|*//*|*//*|*//*|*//*|*/ /*|*/ /**/      
+                              break;
                               
                   
                               case 9:
@@ -566,7 +574,7 @@ public class Visualizador extends javax.swing.JPanel {
                 /*|*/                         /*|*/                          /*|*/                          /*|*/
                 /*|*/                         /*|*/                          /*|*/                          /*|*/
                 /*|*/                         /*|*/                          /*|*/                          /*|*/
-                /*|*/e.setEnabled(true);/*|*/                         /*|*/c.setEnabled(true); /*|*/
+                /*|*/e.setEnabled(false);/*|*/                         /*|*/c.setEnabled(true); /*|*/
                 /*|*/                         /*|*/                          /*|*/                          /*|*/
                 /*|*/                         /*|*/                          /*|*/                          /*|*/
                 /*|*/                         /*|*/                          /*|*/                          /*|*/
@@ -581,6 +589,7 @@ public class Visualizador extends javax.swing.JPanel {
                                    /**/                                               /**/                 
                                                                        
                                          /**/ /*|*//*|*//*|*//*|*//*|*//*|*/ /*|*/ /**/  
+                              break;
                               
         }
         

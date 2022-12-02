@@ -5,13 +5,15 @@
 package Componentes;
 
 import javax.swing.JPanel;
-
+enum Periodo {PRIMERA, SEGUNDA, TERCERA, CUARTA}
 /**
  *
  * @author damm
  */
 public class marcador extends JPanel {
 
+    Periodo p=Periodo.PRIMERA;
+    
     /**
      * Creates new form marcador
      */
@@ -87,15 +89,49 @@ public class marcador extends JPanel {
                         .addGap(111, 111, 111)
                         .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, 267, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(47, 47, 47)
-                        .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, 395, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
                         .addGap(26, 26, 26)
-                        .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 310, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(39, Short.MAX_VALUE))
+                        .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 310, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(47, 47, 47)
+                        .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, 293, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(103, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
-
+    //Establecer el nombre del equipo local en el marcador
+    public void setEquipoLocal(String local){
+        jLabel1.setText(local);
+    }// TO DO}
+    //Establecer el nombre del equipo Visitante en el marcador
+    public void setEquipoVisitante(String visitante){
+        jLabel3.setText(visitante);
+    }// TO DO}
+    //Establece la puntuación del marcador Local
+    public void setPuntosLocal(int puntos){
+        visualizador31.setNumero3(puntos);
+    }// TO DO}
+    //Establece la puntuación del marcador Visitante
+    public void setPuntosVisitante(int puntos){
+        visualizador32.setNumero3(puntos);
+    }// TO DO}
+    //Establece el periodo del partido: 1, 2, 3, 4
+    public void setPeriodo(Periodo p){
+        switch(p){
+            case PRIMERA:
+                visualizador1.setNumero(1);
+                break;
+            case SEGUNDA:
+                visualizador1.setNumero(2);
+                break;
+            case TERCERA:
+                visualizador1.setNumero(3);
+                break;
+            case CUARTA:
+                visualizador1.setNumero(4);
+                break;
+            
+        }
+    
+    }// TO DO}
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel1;

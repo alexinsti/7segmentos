@@ -14,6 +14,15 @@ public class TestComponentes extends javax.swing.JFrame {
     /** Creates new form TestComponentes */
     public TestComponentes() {
         initComponents();
+        marcador2.setEquipoLocal("hola");
+        marcador2.setEquipoVisitante("hola2");
+        marcador2.setPeriodo(Periodo.PRIMERA);
+        marcador2.setPuntosLocal(2500);
+        marcador2.setPuntosVisitante(250);
+        
+        
+        
+        
     }
 
     /** This method is called from within the constructor to
@@ -25,7 +34,7 @@ public class TestComponentes extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        marcador1 = new Componentes.marcador();
+        marcador2 = new Componentes.marcador();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -34,16 +43,16 @@ public class TestComponentes extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(50, 50, 50)
-                .addComponent(marcador1, javax.swing.GroupLayout.PREFERRED_SIZE, 1660, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(135, Short.MAX_VALUE))
+                .addContainerGap()
+                .addComponent(marcador2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(425, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(39, 39, 39)
-                .addComponent(marcador1, javax.swing.GroupLayout.PREFERRED_SIZE, 540, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(18, Short.MAX_VALUE))
+                .addContainerGap()
+                .addComponent(marcador2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(110, Short.MAX_VALUE))
         );
 
         pack();
@@ -85,7 +94,7 @@ public class TestComponentes extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private Componentes.marcador marcador1;
+    private Componentes.marcador marcador2;
     // End of variables declaration//GEN-END:variables
 
 }
